@@ -62,8 +62,8 @@ SocialFeed
 3. Соберите и запустите приложение:
 Выберите нужное устройство или симулятор и запустите приложение.
 
-Скриншоты
-
+<p align="center">Скриншоты
+</p>
 <p align="center">
   <strong>Splash Screen</strong><br>
   <img src="https://github.com/user-attachments/assets/7e466b75-a705-42c8-8e9d-138abaf97f9b" alt="Splash Screen" width="336" />
