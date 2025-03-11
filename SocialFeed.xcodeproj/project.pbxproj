@@ -17,7 +17,6 @@
 		A52D4E3F2D7AF84500929EEE /* PostRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52D4E3E2D7AF84500929EEE /* PostRepository.swift */; };
 		A56D5E292D7A885C005F7DC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56D5E282D7A885C005F7DC9 /* AppDelegate.swift */; };
 		A56D5E2B2D7A885C005F7DC9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56D5E2A2D7A885C005F7DC9 /* SceneDelegate.swift */; };
-		A56D5E2D2D7A885C005F7DC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56D5E2C2D7A885C005F7DC9 /* ViewController.swift */; };
 		A56D5E322D7A885E005F7DC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A56D5E312D7A885E005F7DC9 /* Assets.xcassets */; };
 		A56D5E422D7A8A09005F7DC9 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56D5E412D7A8A09005F7DC9 /* Post.swift */; };
 		A56D5E442D7A8A27005F7DC9 /* PostListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56D5E432D7A8A27005F7DC9 /* PostListViewModel.swift */; };
@@ -49,7 +48,6 @@
 		A56D5E252D7A885C005F7DC9 /* SocialFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A56D5E282D7A885C005F7DC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A56D5E2A2D7A885C005F7DC9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A56D5E2C2D7A885C005F7DC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A56D5E312D7A885E005F7DC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A56D5E362D7A885E005F7DC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A56D5E412D7A8A09005F7DC9 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
@@ -73,6 +71,7 @@
 		A52D4E372D7AF6B800929EEE /* CoreData  */ = {
 			isa = PBXGroup;
 			children = (
+				A52D4E3E2D7AF84500929EEE /* PostRepository.swift */,
 				A52D4E382D7AF6E300929EEE /* CoreDataStack.swift */,
 			);
 			path = "CoreData ";
@@ -107,7 +106,6 @@
 				A56D5E3C2D7A8959005F7DC9 /* Models  */,
 				A56D5E282D7A885C005F7DC9 /* AppDelegate.swift */,
 				A56D5E2A2D7A885C005F7DC9 /* SceneDelegate.swift */,
-				A56D5E2C2D7A885C005F7DC9 /* ViewController.swift */,
 				A56D5E402D7A89C4005F7DC9 /* Resources */,
 				A56D5E362D7A885E005F7DC9 /* Info.plist */,
 			);
@@ -136,7 +134,6 @@
 			isa = PBXGroup;
 			children = (
 				A56D5E432D7A8A27005F7DC9 /* PostListViewModel.swift */,
-				A52D4E3E2D7AF84500929EEE /* PostRepository.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -234,7 +231,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A56D5E482D7A8A99005F7DC9 /* PostListViewController.swift in Sources */,
-				A56D5E2D2D7A885C005F7DC9 /* ViewController.swift in Sources */,
 				A56D5E292D7A885C005F7DC9 /* AppDelegate.swift in Sources */,
 				A52D4E3F2D7AF84500929EEE /* PostRepository.swift in Sources */,
 				A52BDB6F2D7A986D00FC3370 /* APIClient.swift in Sources */,

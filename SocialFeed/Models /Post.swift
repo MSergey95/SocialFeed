@@ -6,12 +6,26 @@ struct Post: Decodable {
     let title: String
     let body: String
 
-    // В JSONPlaceholder нет поля "imageURL",
-    // но мы можем сами придумать логику, напр. через Lorem Picsum:
+    // Эти поля заполняются из CoreData после скачивания изображений.
+    var imageData: Data?
+    var avatarData: Data?
+
+    // Лайк по умолчанию.
+    var isLiked: Bool = false
+
+    // Вычисляемая ссылка для картинки поста.
+    // Используем id % 20 для seed, чтобы seed всегда был в диапазоне 0...19 (где гарантировано есть изображение).
     var imageURL: URL {
-        // Пример: https://picsum.photos/200?random=ID
-        // или просто https://picsum.photos/200/300
-        // Можем привязать к userId (чтобы аватарка была "стабильной") или к id
-        return URL(string: "https://picsum.photos/id/\(userId)/200/300")!
+        return URL(string: "https://picsum.photos/seed/\(id % 20)/400/300")!
+    }
+
+    // Вычисляемая ссылка для аватарки.
+    // Используем userId % 10 для seed, чтобы seed был в диапазоне 0...9.
+    var avatarURL: URL {
+        return URL(string: "https://picsum.photos/seed/\(userId % 10)/50/50")!
+    }
+
+    enum CodingKeys: String, CodingKey {
+        case userId, id, title, body
     }
 }

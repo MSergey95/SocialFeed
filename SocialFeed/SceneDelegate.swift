@@ -1,5 +1,6 @@
 import UIKit
 
+
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
@@ -11,16 +12,20 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     ) {
         guard let windowScene = (scene as? UIWindowScene) else { return }
 
-        let splashVC = SplashViewController() // Наш сплэш-экран
         let window = UIWindow(windowScene: windowScene)
+
+        // Устанавливаем SplashViewController как начальный экран
+        let splashVC = SplashViewController()
         window.rootViewController = splashVC
+
         window.makeKeyAndVisible()
         self.window = window
     }
-
-    func sceneDidDisconnect(_ scene: UIScene) { }
-    func sceneDidBecomeActive(_ scene: UIScene) { }
-    func sceneWillResignActive(_ scene: UIScene) { }
-    func sceneWillEnterForeground(_ scene: UIScene) { }
-    func sceneDidEnterBackground(_ scene: UIScene) { }
 }
+
+//func sceneDidDisconnect(_ scene: UIScene) { }
+// func sceneDidBecomeActive(_ scene: UIScene) { }
+// func sceneWillResignActive(_ scene: UIScene) { }
+// func sceneWillEnterForeground(_ scene: UIScene) { }
+//  func sceneDidEnterBackground(_ scene: UIScene) { }
+
