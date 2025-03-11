@@ -64,14 +64,20 @@ SocialFeed
 
 Скриншоты
 
+<p align="center">
+  <strong>Splash Screen</strong><br>
+  <img src="https://github.com/user-attachments/assets/7e466b75-a705-42c8-8e9d-138abaf97f9b" alt="Splash Screen" width="336" />
+</p>
 
-•Splash Screen: Экран загрузки перед переходом на основную ленту.
-<img width="336" alt="Main" src="https://github.com/user-attachments/assets/7e466b75-a705-42c8-8e9d-138abaf97f9b" />
-•Main Feed: Лента постов с изображениями, аватарками, текстом, лайками и анимацией.
-<img width="292" alt="Feed1" src="https://github.com/user-attachments/assets/c6f293a5-a482-4283-afb2-2c9cae8bbd4e" />
-•Main Feed: Лента постов с изображениями, аватарками, текстом, лайками и анимацией.
-<img width="288" alt="Feed2" src="https://github.com/user-attachments/assets/f2e30be9-a496-4f26-9b13-f4d6a7b5b4b7" />
+<p align="center">
+  <strong>Main Feed 1</strong><br>
+  <img src="https://github.com/user-attachments/assets/c6f293a5-a482-4283-afb2-2c9cae8bbd4e" alt="Main Feed 1" width="292" />
+</p>
 
+<p align="center">
+  <strong>Main Feed 2</strong><br>
+  <img src="https://github.com/user-attachments/assets/f2e30be9-a496-4f26-9b13-f4d6a7b5b4b7" alt="Main Feed 2" width="288" />
+</p>
 
 
 
